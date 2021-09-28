@@ -10,4 +10,9 @@
 
 body {
     background: var(--fundo);
+
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
