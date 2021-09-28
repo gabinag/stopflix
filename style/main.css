@@ -1,5 +1,6 @@
 :root {
     --fundo: #141414;
+    --logo: #E50914;
 }
 
 * {
@@ -13,6 +14,9 @@ body {
 
 }
 
-h1 {
+.logo {
     font-family: 'Oswald', sans-serif;
+    color: var(--logo);
+    font-size: 40px;
+    font-weight: 500;
 }
