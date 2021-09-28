@@ -16,7 +16,14 @@ body {
 
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .logo {
+    margin-left: 5px;
     font-family: 'Oswald', sans-serif;
     color: var(--logo);
     font-size: 40px;
