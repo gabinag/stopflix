@@ -56,11 +56,33 @@ header nav a:hover {
 }
 
 .descricao {
-    margin-bottom: 30px;
+    margin-bottom: 2em;
+    margin-top: .5em;
 }
 
 .title {
+    margin-top: 15%;
     font-size: 40px;
+}
+
+.botao {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, .60);
+    padding: 15px 30px;
+    margin-right: 2em;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.botao:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.botao i {
+    margin-right: 5px;
 }
 
 
