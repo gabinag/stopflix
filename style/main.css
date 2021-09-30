@@ -32,7 +32,7 @@ header .container {
 .logo {
     font-family: 'Oswald', sans-serif;
     color: var(--logo);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -40,6 +40,7 @@ header nav a {
     text-decoration: none;
     color: var(--nav-item);
     margin-right: 10px;
+    font-size: 17px;
 }
 
 header nav a:nth-last-child(1) {
@@ -64,14 +65,15 @@ header nav a:hover {
     justify-content: center;
 }
 
-.descricao {
-    margin-bottom: 2em;
-    margin-top: .5em;
-}
-
 .title {
     margin-top: 15%;
-    font-size: 40px;
+    font-size: 42px;
+}
+
+.descricao {
+    font-size: 18px;
+    margin-bottom: 2em;
+    margin-top: .5em;
 }
 
 .botao {
@@ -79,7 +81,7 @@ header nav a:hover {
     border-radius: 5px;
     font-weight: 600;
     color: #fff;
-    font-size: 12px;
+    font-size: 13px;
     background-color: rgba(0, 0, 0, .60);
     padding: 15px 20px;
     margin-right: 2em;
