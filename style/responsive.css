@@ -1,14 +1,57 @@
-@media screen and (max-width: 400px) {
-    .logo {
-        display: none;
-    }
-}
 
 @media screen and (max-width: 700px) {
     header .container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        height: 70px;
     }
 
+    .logo {
+        font-size: 30px;
+    }
+
+    header nav a {
+        font-size: 18px;
+    }
+
+    .container {
+        margin-left: 1em;
+        margin-right: 0;
+    }
+
+    .title {
+        font-size: 60px;
+        margin-top: 50%;
+        margin-bottom: .25em;
+    }
+
+    .descricao {
+        display: none;
+    }
+
+    .filme-principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .botoes {
+        display: flex;
+        max-width: 500px;
+    }
+
+    .botao {
+        font-size: 15px;
+        margin-right: 1em;
+    }
+
+    .em-alta {
+        top: 88%;
+    }
+
+    .carrossel-filmes {
+        margin-left: 1em;
+    }
 }
 
