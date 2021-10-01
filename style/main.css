@@ -102,6 +102,8 @@ header nav a:hover {
     width: 60%;
 }
 
+/*carrossel*/
+
 .carrossel-filmes {
     margin-left: 3em;
 }
@@ -121,4 +123,18 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+/*series*/
+
+.wrap-series {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.poster-series {
+    width: 300px;
+    margin-bottom: 1em;
 }

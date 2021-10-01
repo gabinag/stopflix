@@ -53,5 +53,9 @@
     .carrossel-filmes {
         margin-left: 1em;
     }
+
+    .poster-series {
+        width: 150px;
+    }
 }
 
