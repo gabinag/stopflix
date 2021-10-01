@@ -37,17 +37,12 @@
     }
 
     .botoes {
-        display: flex;
         max-width: 500px;
     }
 
     .botao {
         font-size: 15px;
         margin-right: 1em;
-    }
-
-    .em-alta {
-        top: 88%;
     }
 
     .carrossel-filmes {
