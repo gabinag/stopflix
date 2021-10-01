@@ -29,6 +29,10 @@ header .container {
     margin-right: 3em;
 }
 
+.container a {
+    text-decoration: none;
+}
+
 .logo {
     font-family: 'Oswald', sans-serif;
     color: var(--logo);
