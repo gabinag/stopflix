@@ -127,7 +127,7 @@ header nav a:hover {
 
 /*series*/
 
-.wrap-series {
+.wrap-posters {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -136,5 +136,10 @@ header nav a:hover {
 
 .poster-series {
     width: 300px;
+    margin-bottom: 2em;
+}
+
+.poster-filmes {
+    width: 200px;
     margin-bottom: 1em;
 }

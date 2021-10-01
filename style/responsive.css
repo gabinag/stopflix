@@ -56,6 +56,11 @@
 
     .poster-series {
         width: 150px;
+        margin-bottom: 1em;
+    }
+
+    .poster-filmes {
+        width: 150px;
     }
 }
 
