@@ -43,6 +43,7 @@
     .botao {
         font-size: 15px;
         margin-right: 1em;
+        padding: 10px 18px;
     }
 
     .carrossel-filmes {
@@ -56,6 +57,18 @@
 
     .poster-filmes {
         width: 150px;
+    }
+
+    footer {
+        padding: 20px 0 30px 0;
+    }
+
+    .icons {
+        margin-right: 1em;
+    }
+
+    footer p {
+        margin-top: 10px;
     }
 }
 

@@ -139,3 +139,33 @@ header nav a:hover {
     margin-bottom: 1em;
 }
 
+footer {
+    padding: 40px 0 50px 0;
+}
+
+.wrap-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.icons {
+    font-size: 40px;
+    margin-right: 4em;
+    color: var(--nav-item);
+}
+
+.icons:last-child {
+    margin-right: 0;
+}
+
+footer p {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 90px;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--nav-item);
+    padding-left: 8px;
+}
