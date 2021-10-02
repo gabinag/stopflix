@@ -129,7 +129,7 @@ header nav a:hover {
     display: block;
 }
 
-/*series*/
+/* seção séries e filmes*/
 
 .wrap-posters {
     display: flex;
@@ -142,6 +142,8 @@ header nav a:hover {
     width: 200px;
     margin-bottom: 1em;
 }
+
+/*footer*/
 
 footer {
     padding: 40px 0 50px 0;
@@ -173,3 +175,21 @@ footer p {
     color: var(--nav-item);
     padding-left: 8px;
 }
+
+/*seção sobre*/
+
+.wrap-sobre {
+    margin: auto;
+    width: 70%;
+}
+
+.title-sobre {
+    font-size: 25px;
+    margin: 1em 0;
+}
+
+.descricao-sobre {
+    text-align: justify;
+    line-height: 1.25;
+}
+
