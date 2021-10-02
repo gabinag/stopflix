@@ -193,8 +193,3 @@ footer p {
     line-height: 1.25;
 }
 
-.footer-absolute {
-    position:absolute;
-    bottom:0;
-    width:100%;
-}
