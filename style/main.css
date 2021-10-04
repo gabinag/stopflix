@@ -146,7 +146,7 @@ header nav a:hover {
 /*footer*/
 
 footer {
-    padding: 40px 0 50px 0;
+    padding: 100px 0 50px 0;
 }
 
 .wrap-icons {
@@ -180,12 +180,12 @@ footer p {
 
 .wrap-sobre {
     margin: auto;
-    width: 70%;
+    width: 60%;
 }
 
 .title-sobre {
     font-size: 25px;
-    margin: 1em 0 .5em 0;
+    margin: 2em 0 .5em 0;
 }
 
 .descricao-sobre {

@@ -5,6 +5,8 @@
         flex-direction: column;
         justify-content: center;
         height: 70px;
+        margin-left: 0;
+        padding-bottom: .5em;
     }
 
     .logo {
@@ -19,6 +21,7 @@
         margin-left: 1em;
         margin-right: 0;
     }
+
 
     .title {
         font-size: 60px;

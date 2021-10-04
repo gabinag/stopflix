@@ -11,6 +11,10 @@ $('.owl-carousel').owlCarousel({
         },
         1000:{
             items:5.5
+        },
+
+        1600: {
+            items: 6.5
         }
     }
 })
