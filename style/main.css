@@ -132,15 +132,12 @@ header nav a:hover {
 /* seção séries e filmes*/
 
 .wrap-posters {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 2em;
+    margin: 2em 3em 0 3em;
 }
 
 .poster-series, .poster-filmes {
     width: 200px;
-    margin-bottom: 1em;
+    margin: 0 0 1em 1em;
 }
 
 /*footer*/
