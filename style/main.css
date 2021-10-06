@@ -194,3 +194,18 @@ footer p {
     line-height: 1.25;
 }
 
+.indicacao {
+    margin: 1em 0;
+}
+
+.wrap-video {
+    text-align: center;
+    margin: 2em 0;
+}
+
+iframe {
+    width: 415px;
+    height: 232px;
+}
+
+
