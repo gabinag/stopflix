@@ -15,6 +15,7 @@
     <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
 
     <title>Stopflix</title>
+
 </head>
 <body>
     <header>
@@ -43,13 +44,21 @@
                             ASSISTIR AGORA
                         </button>
                     </a>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
+                    <a href="javascript: abrir();">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
+
+        <div class="popup" id="popup">
+            <p>oi</p>
+            <a href="javascript: fechar();">Fechar</a>
+        </div>
+
     </main>
 
     <div class="carrossel-filmes">
@@ -205,5 +214,6 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 </html>
