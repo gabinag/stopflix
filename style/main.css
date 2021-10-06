@@ -198,9 +198,15 @@ footer p {
     margin: 1em 0;
 }
 
+.link {
+    color: var(--nav-item);
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .wrap-video {
     text-align: center;
-    margin: 2em 0;
+    margin: 1em 0 2em 0;
 }
 
 iframe {
