@@ -1,4 +1,10 @@
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 500px) {
+    .popup {
+        height: 80%;
+        width: 95%;
+    }
+
     .gif {
         display: none;
     }
@@ -10,10 +16,12 @@
     .details-popup::before {
         content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Coraline.svg/164px-Coraline.svg.png");
         padding-bottom: 1em;
+        width: 100%;
     }
 
     .play-button {
         left: 1em;
+        top: 10em;
     }
 
     .play-button button {
@@ -21,25 +29,8 @@
     }
 
     .sinopse-popup {
-        margin-top: 3em;
-    }
-
-    
-
-}
-
-@media screen and (max-width: 500px) {
-    .popup {
-        height: 95%;
-        width: 95%;
-    }
-
-    .play-button {
-        top: 11em;
-    }
-
-    .sinopse-popup {
         font-size: 17px;
+        margin-top: 3em;
     }
 
 }
@@ -186,10 +177,6 @@
 
     .gif {
         height: 45%;
-    }
-
-    .play-button {
-        top: 10.5em;
     }
 
     .info-popup {
