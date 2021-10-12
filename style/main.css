@@ -132,12 +132,35 @@ header nav a:hover {
 /* seção séries e filmes*/
 
 .wrap-posters {
-    margin: 2em 3em 0 3em;
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr 1fr 1fr 1fr 70px;
+    grid-template-rows: auto;    
+    gap: 10px 8px;
+    margin-top: 20px;
 }
 
-.poster-series, .poster-filmes {
-    width: 200px;
-    margin: 0 0 1em 1em;
+.poster-filmes, .poster-series {
+    width: 100%;
+}
+
+.poster-anomalisa, .poster-galinhas, .poster-vida-abobrinha, .poster-shaun-serie{
+    grid-column: 2 / 3;
+}
+
+.poster-coraline, .poster-cachorros, .poster-noiva-cadaver, .poster-wallace-grommit {
+    grid-column: 3 / 4;
+}
+
+.poster-jack, .poster-james, .poster-paranorman, .poster-pingu {
+    grid-column: 4 / 5;
+}
+
+.poster-raposo, .poster-mark, .poster-shaun, .poster-frango-robo {
+    grid-column: 5 / 6;
+}
+
+.poster-frankenweenie, .poster-mary-max {
+    grid-column: 6 / 7;
 }
 
 /*footer*/
@@ -192,10 +215,12 @@ footer p {
 .descricao-sobre {
     text-align: justify;
     line-height: 1.25;
+    font-size: 18px;
 }
 
 .indicacao {
     margin: 1em 0;
+    font-size: 18px;
 }
 
 .link {
@@ -247,8 +272,8 @@ iframe {
 
 .play-button {
     position: absolute;
-    top: 12em;
-    left: 2em;
+    top: 12.5em;
+    left: 1.2em;
 }
 
 .play-button button {

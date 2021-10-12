@@ -24,6 +24,8 @@
         margin-top: 3em;
     }
 
+    
+
 }
 
 @media screen and (max-width: 500px) {
@@ -39,7 +41,7 @@
     .sinopse-popup {
         font-size: 17px;
     }
-    
+
 }
 
 
@@ -58,7 +60,7 @@
     }
 
     header nav a {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .container {
@@ -97,15 +99,6 @@
         margin-left: 1em;
     }
 
-    .wrap-posters {
-        margin: 2em 1em 0 1em;
-    }
-    
-    .poster-series, .poster-filmes {
-        width: 150px;
-        margin: 0 0 .25em .25em;
-    }
-
     .wrap-sobre {
         width: 80%;
     }
@@ -113,6 +106,10 @@
     .title-sobre {
         font-size: 22px;
         margin: 1em 0 .25em 0;
+    }
+
+    .descricao-sobre, .indicacao {
+        font-size: 20px;
     }
 
     iframe {
@@ -160,6 +157,25 @@
         display: none;
     }
 
+    .wrap-posters {
+        display: grid;
+        grid-template-columns: 15px 1fr 1fr 1fr 1fr 1fr 1fr 15px;
+        grid-template-rows: auto;    
+        gap: 10px 8px;
+        margin-top: 10px;
+    }
+    
+    .poster-anomalisa, .poster-raposo, .poster-cachorros, .poster-mary-max, .poster-paranorman, .poster-shaun-serie, .poster-frango-robo {
+        grid-column: 2 / 4;
+    }
+    
+    .poster-coraline, .poster-frankenweenie, .poster-james, .poster-vida-abobrinha, .poster-shaun, .poster-wallace-grommit{
+        grid-column: 4 / 6;
+    }
+    
+    .poster-jack, .poster-galinhas, .poster-mark, .poster-noiva-cadaver, .poster-pingu {
+        grid-column: 6 / 8;
+    }
 
 }
 
@@ -180,7 +196,7 @@
         padding-left:2em;
         margin-top: 1em;
     }
-}
 
+}
 
 
