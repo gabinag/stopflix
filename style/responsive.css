@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 500px) {
     .popup {
-        height: 80%;
+        height: 84%;
         width: 95%;
     }
 
@@ -29,7 +29,7 @@
     }
 
     .sinopse-popup {
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 3em;
     }
 
